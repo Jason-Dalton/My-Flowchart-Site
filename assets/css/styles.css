@@ -18,3 +18,7 @@ h1 {
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
+
+
+/* Ensuring strict flat design */
+* { box-shadow: none !important; }
