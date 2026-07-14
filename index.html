@@ -36,121 +36,134 @@
         </div>
 
         <!-- Flowchart Container -->
-        <div class="flex flex-col lg:flex-row items-center lg:items-stretch justify-between w-full gap-4 lg:gap-2">
-
-            <!-- Pre-Project Section -->
-            <div class="flex flex-col items-center w-full lg:w-1/5 relative">
-                <div class="w-full h-full bg-purple-50 border-2 border-purple-600 rounded-lg p-6 flex flex-col items-center text-center">
-                    <div class="text-purple-600 mb-4">
-                        <!-- Brain Icon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-5.224 4.468C.655 10.36 0 11.524 0 13c0 2.68 3.14 4 6 4h12c2.86 0 6-1.32 6-4 0-1.524-.655-2.64-1.779-3.407a4 4 0 0 0-5.224-4.468A3 3 0 1 0 12 5z"/>
-                            <path d="M9.12 9A3 3 0 0 0 12 12a3 3 0 0 0 2.88-3"/>
-                            <path d="M12 12v5"/>
-                        </svg>
-                    </div>
-                    <h2 class="text-lg font-bold text-purple-700 mb-2">Pre-Project</h2>
-                    <p class="text-sm text-purple-600/80 font-medium mb-1">Brainstorm & Ideate</p>
-                    <p class="text-xs text-purple-600/70 mt-2">Defining the 'Why' and abstracting the core problem before official project kickoff.</p>
-                </div>
-            </div>
-
-            <!-- Connector Arrow -->
-            <div class="flex items-center justify-center lg:w-8 py-4 lg:py-0">
-                <svg class="w-6 h-6 text-gray-400 rotate-90 lg:rotate-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-            </div>
-
-            <!-- Assess -->
-            <div class="flex flex-col items-center w-full lg:w-1/5">
-                <div class="w-full h-full bg-blue-50 border-2 border-blue-600 rounded-lg p-6 flex flex-col items-center text-center">
-                    <div class="text-blue-600 mb-4">
-                        <!-- Magnifying Glass Icon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="11" cy="11" r="8"></circle>
-                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                        </svg>
-                    </div>
-                    <h2 class="text-lg font-bold text-blue-700 mb-2">Assess</h2>
-                    <p class="text-sm text-blue-600/80 font-medium">Analyze Requirements</p>
-                    <p class="text-xs text-blue-600/70 mt-2">Gather context, evaluate constraints, and review resources.</p>
-                </div>
-            </div>
-
-            <!-- Connector Arrow -->
-            <div class="flex items-center justify-center lg:w-8 py-4 lg:py-0">
-                <svg class="w-6 h-6 text-gray-400 rotate-90 lg:rotate-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-            </div>
-
-            <!-- Plan -->
-            <div class="flex flex-col items-center w-full lg:w-1/5">
-                <div class="w-full h-full bg-green-50 border-2 border-green-600 rounded-lg p-6 flex flex-col items-center text-center">
-                    <div class="text-green-600 mb-4">
-                        <!-- Light Bulb Icon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.9 1.3 1.5 1.5 2.5"></path>
-                            <path d="M9 18h6"></path>
-                            <path d="M10 22h4"></path>
-                        </svg>
-                    </div>
-                    <h2 class="text-lg font-bold text-green-700 mb-2">Plan</h2>
-                    <p class="text-sm text-green-600/80 font-medium">Design Architecture</p>
-                    <p class="text-xs text-green-600/70 mt-2">Structure the workflow, map out algorithms, and set milestones.</p>
-                </div>
-            </div>
-
-            <!-- Connector Arrow -->
-            <div class="flex items-center justify-center lg:w-8 py-4 lg:py-0">
-                <svg class="w-6 h-6 text-gray-400 rotate-90 lg:rotate-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-            </div>
-
-            <!-- Implement -->
-            <div class="flex flex-col items-center w-full lg:w-1/5">
-                <div class="w-full h-full bg-orange-50 border-2 border-orange-600 rounded-lg p-6 flex flex-col items-center text-center">
-                    <div class="text-orange-600 mb-4">
-                        <!-- Gear Icon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="3"></circle>
-                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-                        </svg>
-                    </div>
-                    <h2 class="text-lg font-bold text-orange-700 mb-2">Implement</h2>
-                    <p class="text-sm text-orange-600/80 font-medium">Execute & Build</p>
-                    <p class="text-xs text-orange-600/70 mt-2">Write the code, construct the system, and deploy resources.</p>
-                </div>
-            </div>
-
-            <!-- Connector Arrow -->
-            <div class="flex items-center justify-center lg:w-8 py-4 lg:py-0">
-                <svg class="w-6 h-6 text-gray-400 rotate-90 lg:rotate-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                </svg>
-            </div>
-
-            <!-- Optimize -->
-            <div class="flex flex-col items-center w-full lg:w-1/5">
-                <div class="w-full h-full bg-brown-100 border-2 border-brown-600 rounded-lg p-6 flex flex-col items-center text-center">
-                    <div class="text-brown-600 mb-4">
-                        <!-- Graph Icon -->
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" y1="20" x2="18" y2="10"></line>
-                            <line x1="12" y1="20" x2="12" y2="4"></line>
-                            <line x1="6" y1="20" x2="6" y2="14"></line>
-                        </svg>
-                    </div>
-                    <h2 class="text-lg font-bold text-brown-800 mb-2">Optimize</h2>
-                    <p class="text-sm text-brown-600/80 font-medium">Refine & Scale</p>
-                    <p class="text-xs text-brown-600/70 mt-2">Debug bottlenecks, improve performance, and finalize details.</p>
-                </div>
-            </div>
-
-        </div>
+        <div id="flowchart-container" class="flex flex-col lg:flex-row items-center lg:items-stretch justify-between w-full gap-4 lg:gap-2"></div>
     </div>
 
+    <script>
+        const workflowData = {
+            startStep: "preProject",
+            steps: {
+                preProject: {
+                    title: "Pre-Project",
+                    subtitle: "Brainstorm & Ideate",
+                    description: "Defining the 'Why' and abstracting the core problem before official project kickoff.",
+                    theme: "purple",
+                    icon: "brain",
+                    choices: [{ text: "Next: Assess", nextStep: "assess" }]
+                },
+                assess: {
+                    title: "Assess",
+                    subtitle: "Analyze Requirements",
+                    description: "Gather context, evaluate constraints, and review resources.",
+                    theme: "blue",
+                    icon: "search",
+                    choices: [{ text: "Next: Plan", nextStep: "plan" }]
+                },
+                plan: {
+                    title: "Plan",
+                    subtitle: "Design Architecture",
+                    description: "Structure the workflow, map out algorithms, and set milestones.",
+                    theme: "green",
+                    icon: "lightbulb",
+                    choices: [{ text: "Next: Implement", nextStep: "implement" }]
+                },
+                implement: {
+                    title: "Implement",
+                    subtitle: "Execute & Build",
+                    description: "Write the code, construct the system, and deploy resources.",
+                    theme: "orange",
+                    icon: "gear",
+                    choices: [{ text: "Next: Optimize", nextStep: "optimize" }]
+                },
+                optimize: {
+                    title: "Optimize",
+                    subtitle: "Refine & Scale",
+                    description: "Debug bottlenecks, improve performance, and finalize details.",
+                    theme: "brown",
+                    icon: "graph",
+                    choices: []
+                }
+            }
+        };
+
+        const themeClasses = {
+            purple: {
+                card: "bg-purple-50 border-purple-600",
+                icon: "text-purple-600",
+                title: "text-purple-700",
+                subtitle: "text-purple-600/80",
+                description: "text-purple-600/70"
+            },
+            blue: {
+                card: "bg-blue-50 border-blue-600",
+                icon: "text-blue-600",
+                title: "text-blue-700",
+                subtitle: "text-blue-600/80",
+                description: "text-blue-600/70"
+            },
+            green: {
+                card: "bg-green-50 border-green-600",
+                icon: "text-green-600",
+                title: "text-green-700",
+                subtitle: "text-green-600/80",
+                description: "text-green-600/70"
+            },
+            orange: {
+                card: "bg-orange-50 border-orange-600",
+                icon: "text-orange-600",
+                title: "text-orange-700",
+                subtitle: "text-orange-600/80",
+                description: "text-orange-600/70"
+            },
+            brown: {
+                card: "bg-brown-100 border-brown-600",
+                icon: "text-brown-600",
+                title: "text-brown-800",
+                subtitle: "text-brown-600/80",
+                description: "text-brown-600/70"
+            }
+        };
+
+        const icons = {
+            brain: `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-5.224 4.468C.655 10.36 0 11.524 0 13c0 2.68 3.14 4 6 4h12c2.86 0 6-1.32 6-4 0-1.524-.655-2.64-1.779-3.407a4 4 0 0 0-5.224-4.468A3 3 0 1 0 12 5z"/><path d="M9.12 9A3 3 0 0 0 12 12a3 3 0 0 0 2.88-3"/><path d="M12 12v5"/></svg>`,
+            search: `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>`,
+            lightbulb: `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.9 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg>`,
+            gear: `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>`,
+            graph: `<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>`
+        };
+
+        const flowchartContainer = document.getElementById("flowchart-container");
+        let currentStepKey = workflowData.startStep;
+
+        while (currentStepKey) {
+            const step = workflowData.steps[currentStepKey];
+            const stepTheme = themeClasses[step.theme];
+
+            flowchartContainer.insertAdjacentHTML("beforeend", `
+                <div class="flex flex-col items-center w-full lg:w-1/5">
+                    <div class="w-full h-full ${stepTheme.card} border-2 rounded-lg p-6 flex flex-col items-center text-center">
+                        <div class="${stepTheme.icon} mb-4">${icons[step.icon]}</div>
+                        <h2 class="text-lg font-bold ${stepTheme.title} mb-2">${step.title}</h2>
+                        <p class="text-sm ${stepTheme.subtitle} font-medium">${step.subtitle}</p>
+                        <p class="text-xs ${stepTheme.description} mt-2">${step.description}</p>
+                    </div>
+                </div>
+            `);
+
+            const nextStep = step.choices[0]?.nextStep;
+
+            if (nextStep) {
+                flowchartContainer.insertAdjacentHTML("beforeend", `
+                    <div class="flex items-center justify-center lg:w-8 py-4 lg:py-0">
+                        <svg class="w-6 h-6 text-gray-400 rotate-90 lg:rotate-0" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                        </svg>
+                    </div>
+                `);
+            }
+
+            currentStepKey = nextStep;
+        }
+    </script>
 </body>
 </html>
