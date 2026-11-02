@@ -5,7 +5,6 @@ This project contains the workflow write-up you use at the start of new projects
 ## Project structure
 
 - `/index.html` — main page and current flowchart UI
-- `/assets/css/styles.css` — shared styling
 - `/assets/js/tailwind.config.js` — Tailwind CDN configuration
 - `/assets/js/app.js` — JavaScript entry point for upcoming interactivity
 
